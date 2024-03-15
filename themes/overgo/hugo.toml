@@ -1,0 +1,24 @@
+baseURL = "/"
+paginate = "10"
+
+title = "Systech Analytics SA"
+
+
+defaultContentLanguage = "fr"
+defaultContentLanguageInSubdir = true
+enableInlineShortcodes = true
+removePathAccents = true
+
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[languages]
+  [languages.fr]
+    languageCode = "fr"
+    languageName = "Français"
+    weight = 1
+    title = "Systech Analytics SA"
+  [languages.en]
+    languageCode = "en"
+    languageName = "English"
+    weight = 2
+    title = "Systech Analytics SA"

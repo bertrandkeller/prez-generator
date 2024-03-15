@@ -1,13 +1,12 @@
 ---
-title: Jardin
+title: Jardins Partagés de Bourg-en-Bresse - AG 2024
 type: presentation
-sitemapExclude: true
 slides:
     - part: Jardins Partagés
     - title: Bienvenue
     - part: Rapport Moral
     - texte: |-
-        - Le collectif + La tructure
+        - Le collectif + La structure
         - Petit retour sur le rapport financier 2022
         - Procès
     - title: Retours adhérents

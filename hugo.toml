@@ -4,3 +4,4 @@ defaultContentLanguageInSubdir = false
 enableInlineShortcodes = true
 removePathAccents = true
 title = 'PreZ Generator By Bertrand Keller'
+theme = 'overgo'
