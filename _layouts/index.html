@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <title>{{ .Title }}</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="preload" href="{{ $.Site.BaseURL | default "/" }}css/fonts.css" as="style">
+    <link rel="stylesheet" href="{{ $.Site.BaseURL | default "/" }}css/fonts.css" media="print" onload="this.media='all'" />
+    <link rel="stylesheet" href="{{ $.Site.BaseURL | default "/" }}css/simple.css">
+    <script src="{{ $.Site.BaseURL | default "/" }}js/bigSlide.js"></script>
+</head>
+
+<body class="light">
+    {{ $path := path.Dir .Path }}
+    {{ range .Params.slides }}
+    <div {{ with .part }} data-body-style="background: #222; color: #fff;"{{ end }}>
+        {{ with .part }}<h1>{{ replace . " ?" "&nbsp;?" | safeHTML}}</h1>{{ end }}
+        {{ with .title }}<h2>{{ replace . " " "&nbsp;" | safeHTML }}</h2>{{ end }}
+        {{ with .image }}{{ if in . ".svg" }}{{ readFile (printf "./static/presentation/%s" .) | safeHTML }}{{ else }}<img src="{{ $.Site.BaseURL | default "/" }}presentation/{{ . }}" alt="">{{ end }}{{ end }}
+        {{ with .texte }}{{ . | markdownify | safeHTML }}{{ end }}
+    </div>
+    {{ end }}
+</body>
+
+</html>
