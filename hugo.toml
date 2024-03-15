@@ -1,0 +1,6 @@
+baseURL = ''
+defaultContentLanguage = "fr"
+defaultContentLanguageInSubdir = false
+enableInlineShortcodes = true
+removePathAccents = true
+title = 'PreZ Generator By Bertrand Keller'
