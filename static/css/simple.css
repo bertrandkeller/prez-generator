@@ -35,6 +35,11 @@ body {
   em {
     font-style: normal;
   }
+
+  ul, ol {
+    max-width: 50dvw;
+    font-size: 4dvw;
+  }
   
   .nowrap {
     white-space: nowrap;

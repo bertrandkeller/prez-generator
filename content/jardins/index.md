@@ -6,23 +6,23 @@ slides:
     - title: Bienvenue
     - part: Rapport Moral
     - texte: |-
-        - Le collectif + La structure
-        - Petit retour sur le rapport financier 2022
-        - Procès
+        1. Le collectif + La structure
+        1. Rapport financier 2022
+        1. Retour sur le Procès
     - title: Retours adhérents
     - part: Rapport d'activités
     - title: Jardin des côtes
     - texte: |-
-        - Nettoyage
-        - Les moustiques
+        1. Nettoyage
+        1. Les moustiques
     - title: Jardin de la providence
     - texte: |-
-        - Les ITEP
-        - Les Vols
-        - Moments conviviaux
-        - Réception des nouveaux adhérents
-        - Les nuisibles
-    - texte: La&nbsp;mairie
+        1. Intervention des ITEP
+        1. Les Vols
+        1. Moments conviviaux
+        1. Accueil nouveaux adhérents
+        1. Point sur les nuisibles
+    - texte: Aide de La&nbsp;Mairie
     - title: Retours adhérents
     - part: Rapport financier
     - title: Calcul des cotisations
@@ -32,20 +32,20 @@ slides:
     - part: Projets 2024
     - title: Jardin des côtes
     - texte: |-
-        - Cabanes
-        - Gestion de l'eau :: Cuves
+        1. Les Cabanes
+        1. Gestion de l'eau
     - title: Jardin de la providence
     - texte: |-
-        - Peintures
-        - Moments conviviaux
-        - Grainothèque
-        - Rucher
+        1. Peintures des abris
+        1. Moments conviviaux
+        1. Grainothèque
+        1. Rucher
     - part: Partage
     - texte: |-
-        - Verger
-        - Evénement
-        - Herbiers
-        - Formation
+        1. Verger
+        1. Evénement
+        1. Herbiers
+        1. Formation
 ---
 
 ## Bienvenue
