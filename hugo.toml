@@ -3,5 +3,9 @@ defaultContentLanguage = "fr"
 defaultContentLanguageInSubdir = false
 enableInlineShortcodes = true
 removePathAccents = true
-title = 'PreZ Generator By Bertrand Keller'
+title = 'Présentation By Bertrand Keller'
 theme = 'overgo'
+
+[params]
+  organisation = "La direction générale des douanes et droits indirects"
+

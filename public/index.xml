@@ -1,18 +1,53 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Accueil on PreZ Generator By Bertrand Keller</title>
-    <link>/</link>
-    <description>Recent content in Accueil on PreZ Generator By Bertrand Keller</description>
+    <title>Plein de présentations on Présentation By Bertrand Keller</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content in Plein de présentations on Présentation By Bertrand Keller</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Jardin</title>
-      <link>/jardins/</link>
+      <title>Jardins Partagés de Bourg-en-Bresse - AG 2024</title>
+      <link>//localhost:1313/jardins/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/jardins/</guid>
+      <guid>//localhost:1313/jardins/</guid>
       <description>Bienvenue Rappeller le dérouler de l&amp;rsquo;AG. Et surtout l&amp;rsquo;interpellation des membres après chaque partie. Rapport Moral Retour personnel, sur le collectif. Pour donner une idée du fonctionnement L&amp;rsquo;ambition du collectif. Volonté de création de groupes sur des sujets précis Coeur et satellites pour qua chacun anime la vie de l&amp;rsquo;association </description>
+    </item>
+    <item>
+      <title>Numérique responsable en contexte humanitaire - MixIT</title>
+      <link>//localhost:1313/numeriqueresponsable-mixit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/numeriqueresponsable-mixit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Numérique responsable en contexte humanitaire - VoxxLux</title>
+      <link>//localhost:1313/numeriqueresponsable-voxxlux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/numeriqueresponsable-voxxlux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Oops, vous êtes déconnecté du réseau.</title>
+      <link>//localhost:1313/offline/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/offline/</guid>
+      <description>Essayez de vous connecter à Internet pour naviguer sur le site.</description>
+    </item>
+    <item>
+      <title>Page d’erreur</title>
+      <link>//localhost:1313/404/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/404/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Quoi comprendre du numérique ?</title>
+      <link>//localhost:1313/handicap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/handicap/</guid>
+      <description> texte: |- 1. Pratiques réflexives. 1. Élaboration de lignes directrices et de meilleures pratiques 1. Promotion de l&amp;rsquo;accessibilité 1. Adoption d&amp;rsquo;une approche omnicanale </description>
     </item>
   </channel>
 </rss>
