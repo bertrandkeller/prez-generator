@@ -26,7 +26,7 @@
     {{ with $image }}{{ $image = $image.Resize "3800x" }}{{ end }}
     {{- $square := resources.Get "twittercard/twittercard-transparency.png" -}}
     {{- $filter := images.Opacity 0.35 }}
-    {{- $square     := $square | images.Filter $filter -}}  
+    {{- $square     := $square | images.Filter $filter -}}
     {{- $square     := (images.Overlay $square 0 0)  -}}
     {{- $image  := $image | images.Filter $square -}}
     {{- $opts := dict
@@ -37,7 +37,7 @@
         "x" 200
         "y" 190
     }}
-    
+
     {{ $text := cond (not .Params.subtitle) .Title (string (.Params.subtitle | markdownify)) }}
     {{ $filter := images.Text $text $opts }}
     <meta property="og:title" content="{{ block "meta" . }}{{ .Title }}{{ end }}{{ with .Site.Title }} | {{ . }}{{ end }}">
@@ -205,5 +205,5 @@
     {{ end }}
     {{ with $value.texte }}<p>{{ replace (. | markdownify ) "<li>" "<li class='fragment'>" | safeHTML }}</p>{{ end }}
     {{ with $value.focus }}{{ . | markdownify | safeHTML }}{{ end }}
-    
+
 {{ end }}

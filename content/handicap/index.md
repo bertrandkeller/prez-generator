@@ -2,7 +2,6 @@
 title: Quoi comprendre du numérique ?
 type: presentation
 slides:
-    - part: Quoi comprendre du numérique&nbsp;?
     - title: 1. L'éthique ?
     - title: 2. Les contextes ?
     - image: materiel.svg
@@ -14,7 +13,7 @@ slides:
     - title: Les 3 piliers ?
     - image: triangle6.png
     - texte: |-
-        > Organisation des processus métiers, considérant la variété des parcours utilisateurs (en fonction de leur particularité), au regard de la mission de l'organisme. 
+        > Organisation des processus métiers, considérant la variété des parcours utilisateurs (en fonction de leur particularité), au regard de la mission de l'organisme.
     - title: Les offres
     - image: processus.svg
     - image: processus2.svg
@@ -27,7 +26,7 @@ slides:
 ---
 
 - texte: |-
-        1. Pratiques réflexives. 
+        1. Pratiques réflexives.
         1. Élaboration de lignes directrices et de meilleures pratiques
         1. Promotion de l'accessibilité
         1. Adoption d'une approche omnicanale

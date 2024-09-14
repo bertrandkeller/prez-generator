@@ -5,7 +5,7 @@
     <h1 class="page-header-title">{{ .Title }}</h1>
     {{ .Params.description | markdownify }}
     {{ partialCached "content.html" .Content .Content }}
-    {{ if (.Site.IsServer) }}
+    {{ if (hugo.IsServer) }}
     <ul>
     {{ range where .Pages ".Params.sitemapexclude" "!=" "true" }}
       <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
