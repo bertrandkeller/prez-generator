@@ -23,11 +23,15 @@ slides:
     - image: cycle-de-vie-numerique.jpg
     - image: impactcyclevie-europe.png
     - texte: |-
+        > Les impacts sur le changement climatique causés par les services numériques de l’UE-28 sont équivalents à 40,7 % du budget de l’UE-28 des limites planétaires.
+    - texte: |-
         Métaphore et Paradoxe numérique
 
         (la maison et l'école)
 
         **La technique est ambivalente**.
+    - image: connexion-enfant.png
+    - image: consommation-reseau.png
     - title: Le GSMA *[The Mobile Gender Gap Report 2024](https://www.gsma.com/r/wp-content/uploads/2024/05/The-Mobile-Gender-Gap-Report-2024.pdf)*
     - image: use-case-gsma.png
     - texte: |-

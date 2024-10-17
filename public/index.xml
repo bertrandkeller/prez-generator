@@ -8,6 +8,13 @@
     <language>fr</language>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>IA en contexte humanitaire - Designers Éthiques</title>
+      <link>//localhost:1313/numeriqueresponsable-designersethiques/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/numeriqueresponsable-designersethiques/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Jardins Partagés de Bourg-en-Bresse - AG 2024</title>
       <link>//localhost:1313/jardins/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -15,7 +22,7 @@
       <description>&lt;h2 id=&#34;bienvenue&#34;&gt;Bienvenue&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Rappeller le dérouler de l&amp;rsquo;AG. Et surtout l&amp;rsquo;interpellation des membres après chaque partie.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;rapport-moral&#34;&gt;Rapport Moral&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Retour personnel, sur le collectif. Pour donner une idée du fonctionnement&lt;/li&gt;&#xA;&lt;li&gt;L&amp;rsquo;ambition du collectif. Volonté de création de groupes sur des sujets précis&lt;/li&gt;&#xA;&lt;li&gt;Coeur et satellites pour qua chacun anime la vie de l&amp;rsquo;association&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
-      <title>La complexité des parcours individuels&amp;nbsp;? - France Design Week</title>
+      <title>La complexité des parcours individuels ? - France Design Week</title>
       <link>//localhost:1313/accessibilite-francedesignweek/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/accessibilite-francedesignweek/</guid>
