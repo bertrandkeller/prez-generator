@@ -36,12 +36,12 @@ slides:
         ### -Proposition 3-
         > **Garantir** la « participation et l'inclusion pleines et effectives dans la société » (*Convention Relative aux Droits des Personnes Handicapées*)
     - texte: |-
-        ## Réponses possibles :
+        #### Réponses possibles :
 
         1. Services numériques utilisables ?
-        2. Participer à la vie sociale ?
-        3. Garantir une participation citoyenne ?
-    - title: "Numérique Responsable, c'est quoi ?"
+        2. Participer à la vie sociale&nbsp;?
+        3. Garantir une participation citoyenne&nbsp;?
+    - title: "Numérique Responsable, c'est quoi&nbsp;?"
     - texte: |-
         ### -Proposition 1-
         > **Usage** conscient et éthique des technologies digitales, visant à minimiser leur impact environnemental et social.
@@ -52,7 +52,7 @@ slides:
         ### -Proposition 3-
         > **Réduire** l’empreinte sociale, économique et environnementale du numérique. Il aborde donc les 3 piliers du développement durable :  *People, Planet, ~~Profits~~&nbsp;Prosperity*.
     - texte: |-
-        ## Réponses possibles :
+        #### Réponses possibles :
 
         1. Bon usage des technologies&nbsp;?
         2. Démarche d’amélioration&nbsp;?
