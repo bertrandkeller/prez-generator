@@ -54,9 +54,9 @@ slides:
     - texte: |-
         ## Réponses possibles :
 
-        1. Bon usage des technologies ?
-        2. Démarche d’amélioration ?
-        3. Garantir la survie des populations ?
+        1. Bon usage des technologies&nbsp;?
+        2. Démarche d’amélioration&nbsp;?
+        3. Garantir la survie des populations&nbsp;?
     - title: |-
         Rationalité en finalité
 
