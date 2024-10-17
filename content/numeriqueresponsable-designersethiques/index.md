@@ -34,7 +34,7 @@ slides:
         > **Permettre** aux personnes en situation de handicap de participer à la vie sociale et culturelle et à des activités économiques
     - texte: |-
         ### -Proposition 3-
-        > **Garantir** la « participation et l'inclusion pleines et effectives dans la société » (*Convention relative aux droits des personnes handicapées*)
+        > **Garantir** la « participation et l'inclusion pleines et effectives dans la société » (*Convention Relative aux Droits des Personnes Handicapées*)
     - texte: |-
         ## Réponses possibles :
 
@@ -71,6 +71,7 @@ slides:
     - image: vivre-ensemble.jpg
     - title: La réalité
     - texte: <>
+    - texte: Pas de prise en compte des limites matérielles
     - title: La technique est un Amphisbène **animal à 2 têtes** | dragon.png
     - texte: |-
         > Nous avons apporté une nouvelle perspective sur la fracture numérique en montrant que le véritable problème à résoudre concerne la fracture entre l'approche **sociocentrique** du développement à l'échelle humaine et l'approche **technocentrique** de la fourniture des TIC et de l'accès à ces dernières.
@@ -78,7 +79,7 @@ slides:
         > <https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1137&context=ecis2004>
     - focus: |-
         # Chhhh ! C’est tabou
-    - title: Dimensionner l’infrastructure (donc les IA)| dimensionner.jpg
+    - title: Dimensionner l’infrastructure **(donc les IA)** | dimensionner.jpg
     - texte: |-
         > C’est l’attention évaluatrice qui nous connecte à notre travail en tant qu'êtres humains authentiques. L’épanouissement passe par la confrontation avec le réel.
         > **Matthew B. Crawford**
