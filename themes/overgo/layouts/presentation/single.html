@@ -101,9 +101,62 @@
         .backgrounds {
             color: lime!important;
         }
-        li {
-            max-width: 30ch;
+        h3 + ul, h3 + ol {
+            padding-top: 3rem;
         }
+        li {
+            width: fit-content;
+            max-width: 40ch;
+            font-size: 80%;
+        }
+        .date {
+            color: #666;
+        }
+        .references {
+            display: flex !important;
+            flex-wrap: wrap;
+            flex-direction: column;
+            position: relative;
+            padding: 5rem 0 0rem;
+            height: 100%;
+            box-sizing: border-box;
+        }
+        .references table {
+            width: fit-content;
+            margin: auto;
+        }
+        .references table, .references td {
+            text-align: center !important;
+            border: 1px solid #000;
+        }
+        .references td {
+            margin: 2em;
+        }
+        .references thead td {
+            margin: 2em;
+            text-align: center !important;
+            color: #fff;
+            background-color:#333;
+        }
+        .references td {
+            margin: 2em;
+            text-align: center !important;
+        }
+        .references a, .references table {
+            font-size: 50% !important;
+        }
+        .references .date {
+            font-size: 60% !important;
+        }
+        .references h3 {
+            flex: 2;
+        }
+        section .texte {
+            margin: 0 5rem;
+            text-align: left;
+            font-size: 80% !important;
+        }
+
     </style>
 </head>
 
@@ -136,9 +189,86 @@
             {{ with .background }}
             {{ $.Scratch.Set "background" (printf "%s%s/images/%s" $.Site.BaseURL $path (index (where (readDir (printf "content/%s/images" $path)) "Name" .) 0).Name) }}
             {{ end }}
+            {{ with $value.references }}
+                {{ with index $.Params . }}
+                    {{ range . }}
+                    <section>
+                        <h3>{{ .type }}</h3>
+                    </section>
+                    {{ range .items }}
+                        <section class="references">
+                            {{ with .date }}<p class="date"><span>{{ . }}</span></p>{{ end }}
+                            {{ if .name }}<h3>{{ .name }}{{ if .by }}<br><small>{{ .by }}</small>{{ end }}</h3>{{ end }}
+                            {{ with .texte }}
+                            <div class="texte">
+                                {{- $markdown := . | markdownify }}
+                                {{ if not (findRE "<[h|p][^>]*>" $markdown ) }}
+                                    <p>{{ $markdown }}</p>
+                                {{ else }}
+                                    {{ $markdown }}
+                                {{ end }}
+                            </div>
+                            {{ end }}
+                            {{ with .occurence }}
+                            <table>
+                                <caption>Occurences de mots</caption>
+                                <thead>
+                                <tr>
+                                {{ range $key, $value := . }}
+                                    <td>{{ $key }}</td>
+                                {{ end }}
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                {{ range $key, $value := . }}
+                                    <td>{{ $value }}</td>
+                                {{ end }}
+                                </tr>
+                                </tbody>
+                              </table> 
+                            {{ end }}
+                            {{ with .url }}<p><a href="{{ . }}">{{ . | markdownify }}</a></p>{{ end }}
+                        </section>
+                        {{ with .criteria }}
+                        {{ range . }}
+                        <section>
+                            {{ with .id }}<p><strong>REF: {{ . }}</strong></p>{{ end }}
+                            <div class="texte">
+                                {{- $markdown := .texte | markdownify }}
+                                {{ if not (findRE "<[h|p][^>]*>" $markdown ) }}
+                                    <p>{{ $markdown }}</p>
+                                {{ else }}
+                                    {{ $markdown }}
+                                {{ end }}
+                            </div>
+                        </section>
+                        {{ end }}
+                        {{ end }}
+                        {{ with .images }}
+                            {{ range . }}
+                            <section>
+                            {{ $image := ($collection.GetMatch (printf "{**/,*}%s" .)) }}
+                            {{ if $image }}
+                                {{ if in . ".svg" }}
+                                    {{ readFile (printf "./content/%s/%s" $path $image) | safeHTML }}
+                                {{ else }}
+                                    <img src="{{ $image.Permalink }}" alt="" class="r-stretch">
+                                {{ end }}
+                            {{ else }}
+                            <h2>Image missing or wrong name</h2>
+                            {{ end }}
+                        </section>
+                            {{ end }}
+                        {{ end }}
+                        {{ end }}
+                    {{ end }}
+                {{ end }}
+            {{ else }}
             <section {{ with .part }} data-background-color="#164791"{{ end }}{{ with .focus }} data-background-color="#c61818" class="dark"{{ end }} {{- with .title }}{{- with (index (split . "|") 1) }}data-background-image="images/{{ trim . " " }}" data-background-size="100%" data-background-color="#111"{{ end }}{{ end }} {{ with $.Scratch.Get "background" }}data-background-image="{{ . }}" data-background-size="60%" data-background-color="#111"{{ end }}>
-            {{ template "slides" (dict "context" $ "value" $value "key" $key "slides" $slides "path" $path "collection" $collection) }}
+                {{ template "slides" (dict "context" $ "value" $value "key" $key "slides" $slides "path" $path "collection" $collection) }}
             </section>
+            {{ end }}
             {{ end }}
         </div>
     </div>
