@@ -1,5 +1,5 @@
 ---
-title: "De l'obligation d'évaluer à la capacité de progresser"
+title: "De l'obligation d'évaluer à la capacité de progresser - retour Expérience Sopra Steria - Accessibilité Numérique"
 subtitle: "De l'obligation d'évaluer à la capacité de progresser"
 type: presentation
 image: handicap.jpg
