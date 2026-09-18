@@ -2,6 +2,7 @@
 title: "We Love Speed — Performance & accessibilité"
 subtitle: "Performance & accessibilité"
 type: presentation
+draft: true
 noindex: true
 slides:
   content:

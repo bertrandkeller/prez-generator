@@ -25,7 +25,7 @@ slides:
     - texte: Les indicateurs
     - background: ornoir31.png
     - focus: |-
-        et en
+        En
         ## Milieu humanitaire
         Évaluation permanente
 
@@ -39,7 +39,7 @@ slides:
     - texte: Désintermédiation par le manque de pratique
     - texte: The shit goes up !
     - focus: |-
-        et en
+        En
         ## Milieu humanitaire
         Guidances internationales
 
@@ -47,7 +47,7 @@ slides:
     - title: 3. Le visible et l'invisible
     - texte: On conçoit selon sa propre vision du monde
     - focus: |-
-        et en
+        En
         ## Milieu humanitaire
 
         Les personnes en situation de handicap sont cachées
@@ -64,7 +64,7 @@ slides:
     - image: alphabetisation.svg
    ##- image: amenagement-sans-obstacle.svg
     - focus: |-
-        et en
+        En
         ## Milieu humanitaire
 
         Le numérique ne fait pas partie de la culture de l'humanitaire
@@ -74,7 +74,7 @@ slides:
         > **Melvin Conway**
     - background: conway.png
     - focus: |-
-        et en
+        En
         ## Milieu humanitaire
 
         Les structures sont toujours organisées comme il y a 30 ans
@@ -83,7 +83,7 @@ slides:
     - texte : |-
         > The closer the person with decision-making power over a component is to the engineers who build it, the better the quality.
     - focus: |-
-        et en
+        En
         ## Milieu humanitaire
 
 
@@ -118,7 +118,7 @@ slides:
         >
         > <https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1137&context=ecis2004>
     - focus: |-
-        et en
+        En
         ## Milieu humanitaire
 
         Limiter les fractures en tenant compte de contextes dans une situation de crises permanentes

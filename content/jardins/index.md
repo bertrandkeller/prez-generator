@@ -1,5 +1,6 @@
 ---
 title: Jardins Partagés de Bourg-en-Bresse - AG 2024
+draft: true
 type: presentation
 slides:
     - part: Jardins Partagés

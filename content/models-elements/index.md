@@ -1,6 +1,7 @@
 ---
 title: "Tous les modèles de présentation"
 subtitle: "Tous les modèles de présentation Sligo"
+draft: true
 type: presentation
 description: |-
   Démonstration légère des compositions Sligo Alpha.
