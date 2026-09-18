@@ -1,0 +1,15 @@
+[module]
+  [[module.mounts]]
+    excludeFiles = '*.html'
+    source = 'content'
+    target = 'content'
+
+# https://gohugo.io/getting-started/configuration/#_404-server-error-page
+[minify]
+  disableCSS = false
+  disableHTML = false
+  disableJS = false
+  disableJSON = false
+  disableSVG = false
+  disableXML = false
+  minifyOutput = false

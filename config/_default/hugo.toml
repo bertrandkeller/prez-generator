@@ -1,0 +1,102 @@
+title = 'Bertrand Keller'
+description = "Pensées éco-conçues sur le numérique, les sites statiques et la Low-Tech"
+defaultContentLanguage = "fr"
+locale ="fr-FR"
+ignoreLogs = ['warning-goldmark-raw-html']
+theme = ["sligo","hugo-admonitions"]
+
+ignoreFiles = "/content/posts/*.html"
+
+[frontmatter]
+  date = [':filename', ':default']
+
+[pagination]
+  disableAliases = false
+  pagerSize = 15
+  path = 'posts'
+
+[related]
+  includeNewer = true
+  threshold = 20
+  toLower = false
+  [[related.indices]]
+    applyFilter = true
+    name = 'categories'
+    type = 'basic'
+    weight = 80
+  [[related.indices]]
+    name = 'tags'
+    weight = 80
+
+[outputs]
+  home     = ["HTML"]
+  section  = ["HTML","SITEMAP"]
+  page     = ["HTML"]
+  taxonomy = ["HTML"]
+
+[permalinks]
+  [permalinks.page]
+    posts = ':year/:month/:day/:slug/'
+
+[params]
+  targetrepo = ""
+  moto = "Pensées éco-conçues - Accessibilité numérique et Low-Tech"
+  description = "Pensées éco-conçues - Accessibilité numérique et Low-Tech"
+  twittercard = "assets/twittercard.png"
+  ogLocale = "fr_FR"
+  script = "false"
+  [params.author]
+    name = "Bertrand Keller"
+    description = "Développeur pédagogue, veilleur, polémiqueur... on ne perd pas son temps, on avance."
+
+[security]
+  allowContent = ['.*']
+  
+[menus]
+  [[menus.main]]
+    identifier = "posts"
+    name = "Articles"
+    url = "/posts/"
+    weight = 1
+  [[menus.main]]
+    identifier = "resources"
+    name = "Ressources"
+    url = "/resources/"
+    weight = 2
+  [[menus.main]]
+    identifier = "expertises"
+    name = "Expertises"
+    url = "/expertises/"
+    weight = 200
+
+[languages]
+  [languages.fr]
+    locale ="fr"
+    label ="Français"
+    weight = 1
+    title = "Bertrand Keller"
+  [languages.en]
+    locale ="en"
+    label ="English"
+    weight = 2
+    title = "Bertrand Keller"
+
+[markup]
+  [markup.tableOfContents]
+    ordered = true
+    startLevel = 2
+    endLevel = 3
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['[[', ']]'], ['$$', '$$']]
+          inline = [['\(', '\)','[[', ']]']]
+    [markup.goldmark.parser]
+      wrapStandAloneImageWithinParagraph = false
+    [markup.goldmark.parser.attribute]
+      block = true
+    [markup.goldmark.renderer]
+      unsafe = true
+

@@ -1,0 +1,123 @@
+[mediaTypes]
+
+[mediaTypes."application/atom+xml"]
+  suffixes = ["xml"]
+
+[mediaTypes."application/rss+xml"]
+  suffixes = ["xml"]
+
+[mediaTypes."application/feed+json"]
+  suffixes = ["json"]
+
+[mediaTypes.'application/json']
+  suffixes = ['json']
+
+
+# search
+
+[mediaTypes."application/catalog+json"]
+  suffixes = ["json"]
+
+[mediaTypes."application/manifest+json"]
+  suffixes = ["webmanifest"]
+
+[outputFormats]
+
+[outputFormats.print]
+  baseName = "print"
+  mediaType = "text/html"
+  notAlternative = false
+  permalinkable = true
+  isHTML = true
+[outputFormats.abstract]
+  baseName = "abstract"
+  mediaType = "text/html"
+  notAlternative = false
+  permalinkable = true
+  isHTML = true
+
+[outputFormats.presentation]
+  baseName = "presentation"
+  mediaType = "text/html"
+  notAlternative = false
+  permalinkable = true
+  isHTML = true
+
+[outputFormats.RSS]
+  mediaType = "application/rss+xml"
+  baseName = "feed/"
+  rel = "alternate"
+  isPlainText = false
+  isHTML = false
+  noUgly = true
+
+[outputFormats.HTML]
+  baseName = "index"
+  isPlainText = false
+  isHTML = true
+  noUgly = true
+  permalinkable = true
+
+[outputFormats.FEEDJSON]
+  mediaType = "application/json"
+  baseName = "index"
+  path = "feed"
+  rel = "alternate"
+  isPlainText = true
+  isHTML = false
+  noUgly = false
+
+[outputFormats.FEED] ##### ==> no collision with buildin RSS!
+  mediaType = "application/rss+xml"
+  baseName = "index"
+  rel = "alternate"
+  isPlainText = false
+  isHTML = false
+  noUgly = true
+
+[outputFormats.ATOM]
+  mediaType = "application/atom+xml"
+  baseName = "index"
+  path = "feed"
+  rel = "alternate"
+  isPlainText = false
+  isHTML = false
+  noUgly = true
+
+[outputFormats.SITEMAP]
+  mediaType = "application/xml"
+  baseName = "sitemap"
+  rel = "alternate"
+  isPlainText = false
+  isHTML = false
+  noUgly = true
+  notAlternative = true
+
+[outputFormats.MANIFEST]
+  mediaType = "application/manifest+json"
+  baseName = "manifest"
+  rel = "manifest"
+  isPlainText = true
+  isHTML = false
+  noUgly = false
+  notAlternative = true
+
+[outputFormats.SEARCH]
+  mediaType = "application/catalog+json"
+  baseName = "search/search"
+  rel = "alternate"
+  isPlainText = true
+  isHTML = false
+  notAlternative = true
+
+[outputFormats.headers]
+  baseName = '_headers'
+  isPlainText = true
+  mediatype = 'text/netlify'
+  notAlternative = true
+
+[outputFormats.redir]
+  baseName = '_redirects'
+  isPlainText = true
+  mediatype = 'text/netlify'
+

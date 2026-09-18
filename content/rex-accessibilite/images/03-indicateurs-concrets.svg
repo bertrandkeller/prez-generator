@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<style>
+.title{font:700 48px Arial,sans-serif;fill:#151d34}
+.sub{font:400 24px Arial,sans-serif;fill:#657083}
+.label{font:700 20px Arial,sans-serif;fill:#151d34}
+.small{font:400 18px Arial,sans-serif;fill:#657083}
+.white{fill:#fff}
+.blue{fill:#164791}
+.violet{fill:#4631d4}
+.cream{fill:#f3eee3}
+.line{stroke:#d8dce5;stroke-width:2}
+</style>
+<rect width="1600" height="900" fill="#f7f6f2"/>
+<text x="90" y="95" class="title">Mesurer pour piloter</text>
+<text x="90" y="135" class="sub">Des indicateurs concrets peuvent suivre les actions mises en place</text>
+
+<rect x="130" y="230" width="1340" height="430" rx="30" fill="#fff" stroke="#d8dce5" stroke-width="2"/>
+<text x="190" y="300" class="label">EXEMPLES D'INDICATEURS</text>
+<text x="190" y="360" class="small">Projets accompagnés</text>
+<rect x="520" y="340" width="760" height="28" rx="14" fill="#f3eee3"/><rect x="520" y="340" width="570" height="28" rx="14" class="blue"/>
+<text x="1310" y="363" class="label">75 %</text>
+<text x="190" y="440" class="small">Personnes formées</text>
+<rect x="520" y="420" width="760" height="28" rx="14" fill="#f3eee3"/><rect x="520" y="420" width="410" height="28" rx="14" class="violet"/>
+<text x="1310" y="443" class="label">54 %</text>
+<text x="190" y="520" class="small">Tests utilisateurs réalisés</text>
+<rect x="520" y="500" width="760" height="28" rx="14" fill="#f3eee3"/><rect x="520" y="500" width="300" height="28" rx="14" class="blue"/>
+<text x="1310" y="523" class="label">39 %</text>
+<text x="190" y="600" class="small">Exemples fictifs — à remplacer par les indicateurs de l'organisation.</text>
+
+</svg>

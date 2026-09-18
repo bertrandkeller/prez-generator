@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900"><title>Des modèles de maturité, des objets différents</title><style>
+    text{font-family:Inter,Segoe UI,Arial,sans-serif}.bg{fill:#f7f6f2}.ink{fill:#151d34}.muted{fill:#657083}
+    .blue{fill:#164791}.violet{fill:#4631d4}.cream{fill:#f3eee3}.white{fill:#fff}
+    .title{font-size:42px;font-weight:800}.subtitle{font-size:22px}.eyebrow{font-size:17px;font-weight:800;letter-spacing:2px}
+    .h2{font-size:27px;font-weight:800}.body{font-size:21px;font-weight:500}.small{font-size:17px}
+    .wt{fill:#fff}
+    </style><rect width="1600" height="900" class="bg"/><text x="90" y="82" class="title ink">Des modèles de maturité, des objets différents</text>
+<text x="90" y="122" class="subtitle muted">La maturité ne mesure pas une seule chose : chaque modèle choisit sa propre focale.</text>
+<rect x="90" y="170" width="1420" height="150" rx="24" class="blue"/>
+<text x="125" y="210" class="eyebrow wt">PRATIQUES D’ACCESSIBILITÉ</text><text x="125" y="252" class="body wt">Ce que l’organisation met en place pour rendre l’accessibilité durable</text><text x="125" y="292" class="small wt">politiques · formation · mise en œuvre · évaluation · amélioration</text>
+<rect x="90" y="350" width="1420" height="150" rx="24" class="violet"/>
+<text x="125" y="390" class="eyebrow wt">INTÉGRATION DANS L’ORGANISATION</text><text x="125" y="432" class="body wt">Gouvernance · culture · flux de travail · responsabilités</text><text x="125" y="472" class="small wt">comment l’accessibilité devient une pratique de l’organisation</text>
+<rect x="90" y="530" width="1420" height="150" rx="24" class="cream"/>
+<text x="125" y="570" class="eyebrow ink">PRODUITS · PROCESSUS · DESIGN</text><text x="125" y="612" class="body ink">Développement · conception centrée utilisateur · intégration continue</text><text x="125" y="652" class="small muted">ce qui se passe dans les produits, les processus et leur conception</text>
+<g class="small"><rect x="90" y="725" width="260" height="100" rx="18" class="white" stroke="#d9dce3" stroke-width="2"/><text x="120" y="760" class="eyebrow blue">WAMM</text><text x="120" y="790" class="ink">pratiques web</text><rect x="375" y="725" width="260" height="100" rx="18" class="white" stroke="#d9dce3" stroke-width="2"/><text x="405" y="760" class="eyebrow blue">AMM</text><text x="405" y="790" class="ink">pratiques d’accessibilité</text><rect x="660" y="725" width="260" height="100" rx="18" class="white" stroke="#d9dce3" stroke-width="2"/><text x="690" y="760" class="eyebrow violet">DAMM</text><text x="690" y="790" class="ink">efforts numériques</text><rect x="945" y="725" width="260" height="100" rx="18" class="white" stroke="#d9dce3" stroke-width="2"/><text x="975" y="760" class="eyebrow violet">AEM</text><text x="975" y="790" class="ink">personnes · produits · processus</text><rect x="1230" y="725" width="280" height="100" rx="18" class="white" stroke="#d9dce3" stroke-width="2"/><text x="1260" y="760" class="eyebrow ink">ISO 25010</text><text x="1260" y="790" class="ink">qualité logicielle</text></g></svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980">
+  <rect width="1600" height="980" fill="#f7f6f2"/>
+  <style>
+    .title{font:700 46px Arial,sans-serif;fill:#151d34}
+    .subtitle{font:400 24px Arial,sans-serif;fill:#657083}
+    .head{font:700 27px Arial,sans-serif;fill:#fff}
+    .dim{font:600 24px Arial,sans-serif;fill:#151d34}
+    .note{font:400 21px Arial,sans-serif;fill:#657083}
+    .tag{font:700 20px Arial,sans-serif;fill:#4631d4}
+  </style>
+
+  <text x="90" y="85" class="title">Deux modèles, sept dimensions</text>
+  <text x="90" y="125" class="subtitle">Même intention : regarder la capacité de l’organisation à progresser — mais des choix de découpage différents.</text>
+
+  <rect x="90" y="175" width="690" height="690" rx="18" fill="#fff" stroke="#164791" stroke-width="4"/>
+  <rect x="820" y="175" width="690" height="690" rx="18" fill="#fff" stroke="#4631d4" stroke-width="4"/>
+
+  <rect x="90" y="175" width="690" height="82" rx="18" fill="#164791"/>
+  <rect x="820" y="175" width="690" height="82" rx="18" fill="#4631d4"/>
+  <text x="125" y="228" class="head">Modèle de maturité du W3C</text>
+  <text x="855" y="228" class="head">DAMM — Level Access</text>
+
+  <!-- W3C -->
+  <text x="125" y="305" class="dim">1 · Communication</text>
+  <text x="125" y="365" class="dim">2 · Achats</text>
+  <text x="125" y="425" class="dim">3 · Connaissances &amp; compétences</text>
+  <text x="125" y="485" class="dim">4 · Support</text>
+  <text x="125" y="545" class="dim">5 · Cycle de développement</text>
+  <text x="125" y="605" class="dim">6 · Supervision &amp; culture</text>
+  <text x="125" y="665" class="dim">7 · Personnel</text>
+
+  <text x="125" y="760" class="tag">CHOIX DE MODÈLE</text>
+  <text x="125" y="798" class="note">Le W3C sépare notamment</text>
+  <text x="125" y="827" class="note">Personnel et Supervision &amp; culture.</text>
+
+  <!-- DAMM -->
+  <text x="855" y="305" class="dim">1 · Communication</text>
+  <text x="855" y="365" class="dim">2 · Achats</text>
+  <text x="855" y="425" class="dim">3 · Connaissances &amp; compétences</text>
+  <text x="855" y="485" class="dim">4 · Support</text>
+  <text x="855" y="545" class="dim">5 · Cycle de développement</text>
+  <text x="855" y="605" class="dim">6 · Gouvernance &amp; politique</text>
+  <text x="855" y="665" class="dim">7 · Culture</text>
+
+  <text x="855" y="760" class="tag">CHOIX DE MODÈLE</text>
+  <text x="855" y="798" class="note">Le DAMM distingue</text>
+  <text x="855" y="827" class="note">la gouvernance et la culture dans son découpage.</text>
+
+  <line x1="780" y1="910" x2="820" y2="910" stroke="#151d34" stroke-width="3"/>
+  <text x="800" y="950" text-anchor="middle" class="note">7 ≠ 7 mêmes objets</text>
+</svg>

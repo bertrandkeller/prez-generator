@@ -1,4 +1,4 @@
 ---
-title: Plein de présentations
+title: Présentations
 ---
 

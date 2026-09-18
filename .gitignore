@@ -6,6 +6,7 @@ go.sum
 .hugo_build.lock
 .frontmatter
 themes
+/themes/
 
 # OS file systems
 .DS_Store

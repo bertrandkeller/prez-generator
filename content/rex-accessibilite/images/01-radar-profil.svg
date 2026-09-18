@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<style>
+.title{font:700 48px Arial,sans-serif;fill:#151d34}
+.sub{font:400 24px Arial,sans-serif;fill:#657083}
+.label{font:700 20px Arial,sans-serif;fill:#151d34}
+.small{font:400 18px Arial,sans-serif;fill:#657083}
+.white{fill:#fff}
+.blue{fill:#164791}
+.violet{fill:#4631d4}
+.cream{fill:#f3eee3}
+.line{stroke:#d8dce5;stroke-width:2}
+</style>
+<rect width="1600" height="900" fill="#f7f6f2"/>
+<text x="90" y="95" class="title">Mesurer un profil de maturité</text>
+<text x="90" y="135" class="sub">Une représentation multidimensionnelle</text>
+
+<g transform="translate(430 225)">
+<polygon points="300,0 585,207 476,543 124,543 15,207" fill="none" class="line"/>
+<polygon points="300,70 510,222 430,465 170,465 90,222" fill="none" class="line"/>
+<polygon points="300,145 435,238 385,390 215,390 165,238" fill="none" class="line"/>
+<polygon points="300,105 475,235 420,430 190,410 125,230" fill="#4631d4" opacity=".25" stroke="#4631d4" stroke-width="4"/>
+<line x1="300" y1="0" x2="300" y2="543" class="line"/>
+<line x1="15" y1="207" x2="585" y2="207" class="line"/>
+<text x="270" y="-30" class="label">Gouvernance</text>
+<text x="610" y="215" class="label">Compétences</text>
+<text x="455" y="590" class="label">Processus</text>
+<text x="45" y="590" class="label">Culture</text>
+<text x="-80" y="215" class="label">Pilotage</text>
+<circle cx="300" cy="105" r="8" class="violet"/><circle cx="475" cy="235" r="8" class="violet"/>
+<circle cx="420" cy="430" r="8" class="violet"/><circle cx="190" cy="410" r="8" class="violet"/><circle cx="125" cy="230" r="8" class="violet"/>
+</g>
+<rect x="1000" y="230" width="480" height="330" rx="28" class="blue"/>
+<text x="1045" y="290" class="white label">UNE VUE DE PROFIL</text>
+<text x="1045" y="345" class="white small">On observe plusieurs dimensions</text>
+<text x="1045" y="380" class="white small">en même temps.</text>
+<text x="1045" y="445" class="white small">→ utile pour discuter des forces</text>
+<text x="1045" y="480" class="white small">   et des zones de progression.</text>
+
+</svg>

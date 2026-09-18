@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Des modèles de maturité, des objets différents</title>
+  <desc id="desc">Comparaison qualitative de modèles selon ce qu'ils cherchent principalement à faire progresser. WAMM et AMM portent sur les pratiques d'accessibilité de l'organisation. DAMM porte sur l'intégration dans les flux de travail, la gouvernance et la culture. AEM porte sur les personnes, les produits et les processus dans le développement. IDMM élargit l'accessibilité vers le design inclusif. ISO 25010 est présenté à part comme cadre de qualité logicielle.</desc>
+
+  <style>
+    .svg-title { font: 700 46px system-ui, sans-serif; fill:#151d34 }
+    .svg-subtitle { font: 400 23px system-ui, sans-serif; fill:#657083 }
+    .svg-head { font: 700 25px system-ui, sans-serif; fill:#fff }
+    .svg-name { font: 700 29px system-ui, sans-serif; fill:#151d34 }
+    .svg-tag { font: 700 17px system-ui, sans-serif; fill:#4631d4; letter-spacing:1.2px }
+    .svg-body { font: 400 21px system-ui, sans-serif; fill:#151d34 }
+    .svg-small { font: 400 18px system-ui, sans-serif; fill:#fff }
+    .svg-dark { fill:#000 }
+  </style>
+
+  <rect width="1600" height="900" fill="#f7f6f2"/>
+
+  <text x="80" y="82" class="svg-title">Des modèles de maturité, des objets différents</text>
+  <text x="80" y="122" class="svg-subtitle">Ils ne mesurent pas tous la même chose : pratiques, organisation, intégration ou qualité des produits.</text>
+
+  <!-- Three principal dimensions -->
+  <rect x="80" y="175" width="1440" height="92" rx="18" fill="#164791"/>
+  <text x="110" y="212" class="svg-head">PRATIQUES D'ACCESSIBILITÉ</text>
+  <text x="110" y="244" class="svg-small" fill="#fff">Ce que l'organisation met en place pour rendre l'accessibilité durable</text>
+
+  <rect x="80" y="286" width="1440" height="92" rx="18" fill="#4631d4"/>
+  <text x="110" y="323" class="svg-head">INTÉGRATION DANS L'ORGANISATION</text>
+  <text x="110" y="355" class="svg-small" fill="#fff">Gouvernance · culture · flux de travail · responsabilités</text>
+
+  <rect x="80" y="397" width="1440" height="92" rx="18" fill="#f3eee3" stroke="#151d34" stroke-width="2"/>
+  <text x="110" y="434" class="svg-head svg-dark" fill="#151d34">PRODUITS · PROCESSUS · DESIGN</text>
+  <text x="110" y="466" class="svg-small svg-dark">Intégration dans le développement, l'expérience utilisateur et le design inclusif</text>
+
+  <!-- Model cards -->
+  <g>
+    <rect x="80" y="535" width="270" height="255" rx="20" fill="#fff" stroke="#164791" stroke-width="4"/>
+    <text x="108" y="574" class="svg-tag">ORGANISATION</text>
+    <text x="108" y="616" class="svg-name">WAMM</text>
+    <text x="108" y="651" class="svg-body">Maturité des pratiques</text>
+    <text x="108" y="679" class="svg-body">d'accessibilité web</text>
+    <text x="108" y="730" class="svg-small">Politiques · formation</text>
+    <text x="108" y="755" class="svg-small">mise en œuvre · évaluation</text>
+  </g>
+
+  <g>
+    <rect x="375" y="535" width="270" height="255" rx="20" fill="#fff" stroke="#164791" stroke-width="4"/>
+    <text x="403" y="574" class="svg-tag">ORGANISATION</text>
+    <text x="403" y="616" class="svg-name">AMM</text>
+    <text x="403" y="651" class="svg-body">Maturité des pratiques</text>
+    <text x="403" y="679" class="svg-body">d'accessibilité</text>
+    <text x="403" y="730" class="svg-small">De « ad-hoc »</text>
+    <text x="403" y="755" class="svg-small">à « optimisé »</text>
+  </g>
+
+  <g>
+    <rect x="670" y="535" width="270" height="255" rx="20" fill="#fff" stroke="#4631d4" stroke-width="4"/>
+    <text x="698" y="574" class="svg-tag">INTÉGRATION</text>
+    <text x="698" y="616" class="svg-name">DAMM</text>
+    <text x="698" y="651" class="svg-body">Efforts d'accessibilité</text>
+    <text x="698" y="679" class="svg-body">numérique</text>
+    <text x="698" y="730" class="svg-small">Flux de travail · gouvernance</text>
+    <text x="698" y="755" class="svg-small">culture · pratiques durables</text>
+  </g>
+
+  <g>
+    <rect x="965" y="535" width="270" height="255" rx="20" fill="#fff" stroke="#4631d4" stroke-width="4"/>
+    <text x="993" y="574" class="svg-tag">DÉVELOPPEMENT</text>
+    <text x="993" y="616" class="svg-name">AEM</text>
+    <text x="993" y="651" class="svg-body">Personnes · produits</text>
+    <text x="993" y="679" class="svg-body">et processus</text>
+    <text x="993" y="730" class="svg-small">Conception centrée utilisateur</text>
+    <text x="993" y="755" class="svg-small">intégration continue</text>
+  </g>
+
+  <g>
+    <rect x="1260" y="535" width="260" height="255" rx="20" fill="#fff" stroke="#151d34" stroke-width="3"/>
+    <text x="1288" y="574" class="svg-tag">QUALITÉ</text>
+    <text x="1288" y="616" class="svg-name">ISO 25010</text>
+    <text x="1288" y="651" class="svg-body">Qualité logicielle</text>
+    <text x="1288" y="679" class="svg-body">incluant l'accessibilité</text>
+    <text x="1288" y="730" class="svg-small">Référence qualité</text>
+    <text x="1288" y="755" class="svg-small">≠ modèle de maturité dédié</text>
+  </g>
+
+  <!-- Connector / reading guide -->
+  <path d="M215 535 V489" stroke="#164791" stroke-width="4"/>
+  <path d="M510 535 V489" stroke="#164791" stroke-width="4"/>
+  <path d="M805 535 V489" stroke="#4631d4" stroke-width="4"/>
+  <path d="M1100 535 V489" stroke="#4631d4" stroke-width="4"/>
+  <path d="M1390 535 V489" stroke="#151d34" stroke-width="3" stroke-dasharray="8 8"/>
+
+  <text x="80" y="842" class="svg-small">Lecture : les modèles peuvent partager une logique de progression, mais leur périmètre et leur objet d'observation diffèrent.</text>
+</svg>

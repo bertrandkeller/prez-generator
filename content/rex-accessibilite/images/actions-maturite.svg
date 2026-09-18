@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="t d">
+<title id="t">Transformer des objectifs en actions et indicateurs</title><desc id="d">Chaîne reliant objectif, action et indicateur, avec des exemples issus de l'assessment.</desc>
+<defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0 0L12 6L0 12z" fill="#151d34"/></marker></defs>
+<g font-family="Arial,sans-serif" text-anchor="middle">
+<text x="600" y="62" font-size="32" font-weight="800" fill="#151d34">Mesurer ce que l'on veut faire progresser</text>
+<rect x="70" y="145" width="300" height="390" rx="30" fill="#164791"/><text x="220" y="205" font-size="27" font-weight="800" fill="#fff">OBJECTIF</text>
+<text x="220" y="275" font-size="23" fill="#fff">Développer la capacité</text><text x="220" y="310" font-size="23" fill="#fff">des entités à agir</text>
+<rect x="450" y="145" width="300" height="390" rx="30" fill="#4631d4"/><text x="600" y="205" font-size="27" font-weight="800" fill="#fff">ACTION</text>
+<text x="600" y="270" font-size="22" fill="#fff">Communauté de leaders</text><text x="600" y="310" font-size="22" fill="#fff">Hub de ressources</text><text x="600" y="350" font-size="22" fill="#fff">Formation</text><text x="600" y="390" font-size="22" fill="#fff">Tests intégrés</text><text x="600" y="430" font-size="22" fill="#fff">Soutien aux équipes</text>
+<rect x="830" y="145" width="300" height="390" rx="30" fill="#f3eee3" stroke="#151d34" stroke-width="3"/><text x="980" y="205" font-size="27" font-weight="800" fill="#151d34">INDICATEUR</text>
+<text x="980" y="275" font-size="22" fill="#151d34">Réunions régulières</text><text x="980" y="315" font-size="22" fill="#151d34">Actions lancées</text><text x="980" y="355" font-size="22" fill="#151d34">Hub démarré</text><text x="980" y="395" font-size="22" fill="#151d34">Satisfaction des leaders</text><text x="980" y="435" font-size="22" fill="#151d34">Convergence des pratiques</text>
+<path d="M370 340H435" stroke="#151d34" stroke-width="3" marker-end="url(#a)"/><path d="M750 340H815" stroke="#151d34" stroke-width="3" marker-end="url(#a)"/>
+</g></svg>

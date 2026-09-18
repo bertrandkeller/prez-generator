@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<style>
+.title{font:700 48px Arial,sans-serif;fill:#151d34}
+.sub{font:400 24px Arial,sans-serif;fill:#657083}
+.label{font:700 20px Arial,sans-serif;fill:#151d34}
+.small{font:400 18px Arial,sans-serif;fill:#657083}
+.white{fill:#fff}
+.blue{fill:#164791}
+.violet{fill:#4631d4}
+.cream{fill:#f3eee3}
+.line{stroke:#d8dce5;stroke-width:2}
+</style>
+<rect width="1600" height="900" fill="#f7f6f2"/>
+<text x="90" y="95" class="title">Mesurer une progression</text>
+<text x="90" y="135" class="sub">La même organisation peut être observée dans le temps</text>
+
+<g transform="translate(190 205)">
+<line x1="0" y1="440" x2="1050" y2="440" class="line"/><line x1="0" y1="40" x2="0" y2="440" class="line"/>
+<polyline points="40,390 230,350 420,330 610,265 800,220 1010,130" fill="none" stroke="#4631d4" stroke-width="7"/>
+<circle cx="40" cy="390" r="9" class="violet"/><circle cx="230" cy="350" r="9" class="violet"/><circle cx="420" cy="330" r="9" class="violet"/><circle cx="610" cy="265" r="9" class="violet"/><circle cx="800" cy="220" r="9" class="violet"/><circle cx="1010" cy="130" r="9" class="violet"/>
+<text x="0" y="475" class="small">T0</text><text x="970" y="475" class="small">T5</text>
+<text x="20" y="20" class="label">Niveau / capacité observée</text>
+</g>
+<rect x="1120" y="260" width="330" height="250" rx="28" class="blue"/>
+<text x="1160" y="320" class="white label">LA PROGRESSION</text>
+<text x="1160" y="375" class="white small">devient elle-même</text>
+<text x="1160" y="410" class="white small">un objet de mesure.</text>
+<text x="1160" y="465" class="white small">→ utile pour le pilotage</text>
+
+</svg>
